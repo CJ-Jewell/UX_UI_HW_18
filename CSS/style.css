@@ -145,6 +145,29 @@ main {
     margin: 20px;
 }
 
+/********** main content */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 20px; /* Gap between grid items */
+    margin-bottom: 20px; /* Margin between grid containers */
+  }
+  
+  /* Style for the grid item containing the image */
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the text grid item */
+  .grid-item.text {
+    text-align: left;
+  }
+
+
+
 
 
 /***** Style the footer */
